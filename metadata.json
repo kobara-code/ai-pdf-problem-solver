@@ -1,0 +1,5 @@
+{
+  "name": "AI PDF Problem Solver",
+  "description": "Upload PDF problems and images to create interactive quizzes, solve them, and bookmark challenging questions.",
+  "requestFramePermissions": []
+}

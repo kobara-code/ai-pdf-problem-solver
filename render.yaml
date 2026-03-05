@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ai-pdf-problem-solver
+    env: node
+    buildCommand: npm install
+    startCommand: npm run dev
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
